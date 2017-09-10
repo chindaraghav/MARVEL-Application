@@ -1,0 +1,88 @@
+{
+  "movies":[
+    {
+      "id":"1",
+    "title":"Avengers",
+   "actors":["Robert Downey Jr.","Chris Evans","Mark Ruffalo","Chris Hemsworth","Scarlett Johansson","Jeremy Renner","Tom Hiddleston"],
+    "image":"/images/avenger1.jpg",
+      "mainImg":"/images/MainPoster/avenger.jpg"
+  },
+    {
+      "id":"2",
+    "title":"DeadPool",
+    "actors":["Ryan Reynolds","Karan Soni","Ed Skrein","Michael Benyaer","Stefan Kapicic","Brianna Hildebrand"],
+    "image":"/images/deadpool.jpg",
+      "mainImg":"/images/MainPoster/deadpool.jpg"
+  },
+    {
+      "id":"3",
+    "title":"Guardians Of The Galaxy",
+    "actors":["Chris Pratt","Zoe Saldana","Dave Bautista","Vin Diesel","Bradley Cooper","Lee Pace","Michael Rooker"],
+    "image":"/images/gog.jpg",
+      "mainImg":"/images/MainPoster/guard.jpg"
+  },
+    {
+      "id":"4",
+    "title":"Iron-Man",
+    "actors":["Robert Downey Jr.","Terrence Howard","Jeff Bridges","Gwyneth Paltrow","Leslie Bibb","Shaun Toub"],
+    "image":"/images/ironman.jpg",
+      "mainImg":"/images/MainPoster/iron1.jpg"
+  },
+    {
+      "id":"5",
+    "title":"Iron-Man 3",
+    "actors":["Robert Downey Jr.","Gwyneth Paltrow","Don Cheadle","Guy Pearce","Rebecca Hall","Jon Favreau"],
+    "image":"/images/ironman3.jpg",
+      "mainImg":"/images/MainPoster/iron3.jpg"
+  },
+    {
+      "id":"6",
+      "title":"SpiderMan Homecoming",
+      "actors":["Tom Holland","Michael Keaton","Robert Downey Jr.","Marisa Tomei","Jon Favreau","Gwyneth Paltrow","Zendaya"],
+      "image":"/images/spiderman.jpg",
+      "mainImg":"/images/MainPoster/spider.jpg"
+    },
+    {
+      "id":"7",
+      "title":"Captain America Winter Soldier",
+      "actors":["Chris Evans","Samuel L. Jackson","Scarlett Johansson","Sebastian Stan","Anthony Mackie","Cobie Smulders"],
+      "image":"/images/cpm.jpg",
+      "mainImg":"/images/MainPoster/captW.jpg"
+    },
+    {
+      "id":"8",
+      "title":"Guardians Of Galaxy 2",
+      "actors":["Chris Pratt","Zoe Saldana","Dave Bautista","Vin Diesel","Bradley Cooper","Michael Rooker","Karen Gillan"],
+      "image":"/images/gog2.jpg",
+      "mainImg":"/images/MainPoster/gog2.jpg"
+    },
+    {
+      "id":"9",
+      "title":"Captain America Civil War",
+      "actors":["Chris Evans","Robert Downey Jr.","Scarlett Johansson","Sebastian Stan","Anthony Mackie","Don Cheadle","Jeremy Renner"],
+      "image":"/images/CivilWar.jpg",
+      "mainImg":"/images/MainPoster/civil.jpg"
+    },
+    {
+      "id":"10",
+      "title":"Iron-Man 2",
+      "actors":["Robert Downey Jr.","Gwyneth Paltrow","Don Cheadle","Scarlett Johansson","Sam Rockwell","Mickey Rourke","Samuel L. Jackson"],
+      "image":"/images/ironman2.jpg",
+      "mainImg":"/images/MainPoster/bgIronMan2.jpg"
+    },
+    {
+      "id":"11",
+      "title":"AntMan",
+      "actors":["Paul Rudd","Michael Douglas","Evangeline Lilly","Corey Stoll","Bobby Cannavale","Anthony Mackie"],
+      "image":"/images/antman.jpg",
+      "mainImg":"/images/MainPoster/ant.jpg"
+    },
+    {
+      "id":"12",
+      "title":"Doctor Strange",
+      "actors":["Benedict Cumberbatch","Chiwetel Ejiofor","Rachel McAdams","Benedict Wong","Mads Mikkelsen","Tilda Swinton"],
+      "image":"/images/dr.jpg",
+      "mainImg":"/images/MainPoster/strange.jpg"
+    }
+  ]
+}

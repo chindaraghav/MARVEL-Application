@@ -1,0 +1,14 @@
+<div id="navbar" class="navbar navbar-fixed-top">
+    <div class="container">
+        <ul id="nav-bar" class="nav navbar-nav navbar-right">
+            <li><a href="/">HOME</a></li>
+            <li id="li1" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">MOVIES<i class="fa fa-chevron-down"></i></a>
+            <ul id="dpdn" class="dropdown-menu"">
+             <%for(var i=0;i<data.movies.length;i++){%>
+                <li ><a style="color:gray; font-family:Oswald; " href="/movie/<%=data.movies[i].id%>"><%=data.movies[i].title%></a></li>
+                <%}%>
+            </ul>
+        </ul>
+    </div>
+
+</div>

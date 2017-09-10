@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="/images/icon.ico">
+    <title><%=title%></title>
+    <link rel="stylesheet" href="/stylesheets/styleTemp.css">
+    <%-include('inc.ejs')%>
+</head>
+<body>
+<div>
+    <img id="head1"src="<%=poster%>" alt="">
+    <img id="head2" src="/stylesheets/logo3.jpg" alt="">
+    <%-include('navB')%>
+    <div id="con">
+        <div id="mContainer" class="container">
+            <div id="r1" class="row">
+                <div class="col-md-2 col-xs-12 col-md-offset-1 col-xs-offset-4">
+                    <img id="imgg" src="<%=image%>" alt="">
+                </div>
+                <div class="col-md-4 col-xs-12 col-md-offset-4 col-xs-offset-4">
+                  <div id="actor">
+                      <span id="descr">Main Actors</span>
+                      <ul>
+                          <%for(var i=0;i<actors.length;i++){%>
+                          <li><i class="fa fa-arrow-right" aria-hidden="true"></i><%=actors[i]%></li>
+                          <%}%>
+                      </ul>
+                  </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="desblock" class="col-md-10 col-xs-12 col-md-offset-1">
+                    <h2>Description</h2>
+                    <p id="content"><%=text%></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </img>
+    <footer id="foot">
+        <div class="col-md-4 col-md-offset-4 col-xs-12">
+            <span class="text-center">Thank You For Visiting!</span>
+        </div>
+        <div class="col-md-2 col-md-offset-1">
+            <p style="color: white; font-family: Oswald; font-size: 18px;">Made By Raghav Chinda</p>
+            <a href="https://github.com/raghav0604" target="_blank">
+                <i class="fa fa-github fa-3x icon"></i></a>
+            <a href="https://www.linkedin.com/in/raghav-chinda-a2937b145/" target="_blank"><i class="fa fa-linkedin fa-3x icon"></i></a>
+            <a href="https://www.facebook.com/rv.raghav604" target="_blank"><i class="fa fa-facebook fa-3x icon"></i></a>
+        </div>
+    </footer>
+    <script src="/javascripts/effects.js"></script>
+</body>
+</html>

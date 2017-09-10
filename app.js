@@ -1,0 +1,11 @@
+const express=require('express');
+const app=express();
+const home=require('./routes/home');
+const error=require('./routes/error');
+const movies=require('./routes/singleMovieTemp');
+app.set('view engine','ejs');
+app.use(express.static('public'));
+app.use(home);
+app.use(movies);
+app.use(error);
+app.listen(process.env.PORT || 3000);

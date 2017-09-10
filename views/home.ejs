@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MARVEL-Home Page</title>
+    <link rel="icon" href="/images/icon.ico">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+
+    <%-include('inc')%>
+</head>
+<body>
+
+
+    <div id="head" class="img-responsive"></div>
+    <div id="head2" class="img-responsive">
+        <img src="/stylesheets/logo3.jpg" alt="">
+    </div>
+    <%-include('navB')%>
+    <div style="background:black" class="container-fluid">
+<div>
+
+    <div id="cont" class="container" >
+        <div id="image-con">
+
+            <%for(var i=0;i<data.movies.length;i++){%>
+            <div class="conA">
+                <div class="ibox col-md-4 col-xs-12 img-responsive">
+                    <img class="imageS " src="<%=data.movies[i].image%>" alt="">
+                    <div class="tbox">
+                        <span>
+                            <h3 style="font-family:Encode Sans Condensed; font-weight: bold;" class="text-center"><%=data.movies[i].title%></h3>
+
+                        <a href="/movie/<%=data.movies[i].id%>"><p style="color: blueviolet; font-size: 17px;">View More<i class="fa fa-arrow-right" aria-hidden="true"></i></p></a>
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+            <%}%>
+        </div>
+    </div>
+
+</div>
+</div>
+<footer id="foot">
+    <div class="col-md-4 col-md-offset-4 col-xs-12">
+        <span class="text-center">Thank You For Visiting!</span>
+    </div>
+    <div class="col-md-2 col-md-offset-1">
+        <p style="color: white; font-family: Oswald; font-size: 18px;">Made By Raghav Chinda</p>
+        <a href="https://github.com/raghav0604" target="_blank"><i class="fa fa-github fa-3x icon"></i></a>
+        <a href="https://www.linkedin.com/in/raghav-chinda-a2937b145/" target="_blank"><i class="fa fa-linkedin fa-3x icon"></i></a>
+        <a href="https://www.facebook.com/rv.raghav604" target="_blank"><i class="fa fa-facebook fa-3x icon"></i></a>
+    </div>
+</footer>
+    <script src="/javascripts/effects.js"></script>
+</body>
+</html>

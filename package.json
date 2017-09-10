@@ -1,0 +1,14 @@
+{
+  "name": "webapp-1",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "debug": "^3.0.1",
+    "ejs": "~2.5.6",
+    "express": "~4.15.2",
+    "merge-descriptors": "^1.0.1"
+  }
+}

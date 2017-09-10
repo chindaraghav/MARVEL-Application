@@ -1,0 +1,114 @@
+#head1
+{
+    width:100%;
+    height:540px;
+    background: cover;
+    background-position:center ;
+}
+#head2
+{
+    width: 100%;
+    height: 200px;
+}
+#nav-bar li a
+{
+    color:green;
+    font-weight:bold;
+    font-family: Oswald;
+    font-size: 25px;
+}
+#foot
+{
+    height:140px;
+    width:100%;
+    background:linear-gradient(to right,black,#4C0000,black);
+    overflow: hidden;
+}
+#foot span
+{
+    font-family: Oswald;
+    font-size: 45px;
+    color:white;
+}
+.icon
+{
+    padding-right: 20px;
+    margin-bottom: 30px;
+    color: white;
+
+}
+.icon:hover
+{
+    color:skyblue;
+}
+#imgg
+{
+    height: 400px;
+    width: 330px;
+    box-shadow:15px 15px 20px black;
+}
+
+#mContainer
+{
+    background: linear-gradient(to right,black,#4C0000,black);
+    padding-bottom: 60px;
+}
+
+#con
+{
+    background: black;
+}
+
+#r1
+{
+    padding-top:50px ;
+}
+#descr
+{
+    font-family: Oswald;
+    font-weight: bold;
+    font-size: 39px;
+    border-bottom:3px solid purple;
+    margin-left: 15px;
+    color:white ;
+}
+#actor
+{
+    padding: 32px;
+    padding-right: 50px;
+}
+#actor ul
+{
+    list-style: none;
+    color: white;
+    padding: 0;
+    margin: 0;
+    padding-top: 20px;
+}
+#actor
+{
+    font-size: 25px;
+    font-family: Oswald;
+}
+
+#content
+{
+    font-size: 17px;
+    color: white;
+    text-shadow:15px black;
+    padding: 10px;
+    padding: 20px;
+    font-family:Open Sans;
+}
+#desblock
+{
+    margin-top: 20px;
+}
+#desblock h2
+{
+    font-family: Oswald;
+    font-size: 40px;
+    text-decoration: underline;
+    color: white;
+
+}
